@@ -18,7 +18,6 @@ class Coin extends Component {
 
   flipCoin() {
     const randFlip = Math.floor(Math.random() + 0.5);
-    console.log('randFlip ->', randFlip);
     // heads = 1, tails = 0
     if (randFlip === 1) {
       if (!this.state.heads) this.setState({heads: true});
@@ -39,7 +38,11 @@ class Coin extends Component {
           <h2>Coin Flip Fun</h2>
           <img src={this.state.heads ? headsImg : tailsImg}></img>
           <button onClick={this.flipCoin}>FLIP MEE</button>
-          <Outcomes />
+          <Outcomes
+              headsFace={this.state.heads}
+              headsCount={this.state.headsCount}
+              tailsCount={this.state.tailsCount}
+          />
         </div>
     )
   }
