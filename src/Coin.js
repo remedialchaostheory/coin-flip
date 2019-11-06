@@ -36,7 +36,7 @@ class Coin extends Component {
     return (
         <div className="Coin">
           <h2>Coin Flip Fun</h2>
-          <img src={this.state.heads ? headsImg : tailsImg}></img>
+          <img src={this.state.heads ? headsImg : tailsImg} alt={this.state.heads ? 'heads' : 'tails'}></img>
           <button onClick={this.flipCoin}>FLIP MEE</button>
           <Outcomes
               headsFace={this.state.heads}
