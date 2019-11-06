@@ -1,0 +1,14 @@
+.Coin {
+  display: grid;
+  justify-items: center;
+  grid-gap: 20px;
+}
+
+.Coin img {
+  width: 200px;
+}
+
+.Coin button {
+  padding: 1rem;
+  border-radius: 10px;
+}
