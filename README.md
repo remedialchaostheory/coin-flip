@@ -1,6 +1,8 @@
 # Coin Flip
 
-Take your chances and flip a coin!
-<br>See how your luck stacks up... or not. 
+[Demo](https://rct-coin-flip.s3.amazonaws.com/index.html)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Take your chances and flip a coin!<br>
+See how your luck stacks up... or not. 
+
+Built with React.js
